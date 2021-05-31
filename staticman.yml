@@ -1,0 +1,10 @@
+comments:
+  allowedFields: ["name", "email", "message"]
+  branch: "master"
+  commitMessage: "comment!"
+  filename: "entries"
+  format: "json"
+  name: "savefrys.com"
+  path: "data/comments"
+  requiredFields: ["name", "email", "message"]
+
