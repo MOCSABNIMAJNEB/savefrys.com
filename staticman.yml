@@ -1,7 +1,7 @@
 comments:
   allowedFields: ["name", "email", "message"]
   branch: "staticman"
-  commitMessage: "comment!"
+  commitMessage: "comment! ... {options.slug"
   filename: "entries"
   format: "json"
   name: "savefrys.com"
