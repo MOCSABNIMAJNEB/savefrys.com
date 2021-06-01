@@ -6,5 +6,6 @@ comments:
   format: "json"
   name: "savefrys.com"
   path: "data/comments"
+  moderation: false
   requiredFields: ["name", "email", "message"]
 
