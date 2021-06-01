@@ -10,14 +10,15 @@
 $(document).ready(function() {
 var table = $('#example').DataTable({
 "ajax": {
-"url": "data/comments/entries.json",
+"url": "https://mocsabnimajneb.github.io/savefrys.com/savefrys.com/data/comments/entries.json",
 "columns": [
-{ "data": "name" },
-{ "data": "email" },
-{ "data": "message" }
-]
+    { "data": "name" },
+    { "data": "email" },
+    { "data": "message" }
+  ]
 }
-});
+} );
+} );
 </script>
 <table id="example" class="display" style="width:100%">
         <thead>
