@@ -1,0 +1,30 @@
+<head>
+    <script  src="https://code.jquery.com/jquery-3.4.0.js"  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="  crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" />
+    <style type="text/css" class="init"></style>
+</head>
+<script>
+$(document).ready(function() {
+var table = $('#example').DataTable({
+"ajax": {
+"url": "data/comments/entries.json"
+"columns": [
+{ "data": "name" },
+{ "data": "email" },
+{ "data": "message" }
+]
+}
+});
+</script>
+<table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Message</th>
+            </tr>
+        </thead>
+</table>
