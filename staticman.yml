@@ -1,6 +1,6 @@
 comments:
   allowedFields: ["name", "email", "message"]
-  branch: "master"
+  branch: "staticman"
   commitMessage: "comment!"
   filename: "entries"
   format: "json"
