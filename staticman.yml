@@ -3,9 +3,9 @@ comments:
   branch: "staticman"
   commitMessage: "comment!"
   filename: "entries-{@timestamp}" 
-  format: "json"
+  format: "yaml"
   name: "savefrys.com"
-  path: "data/comments"
+  path: "_data/comments"
   moderation: false
   requiredFields: ["name", "email", "message"]
 
